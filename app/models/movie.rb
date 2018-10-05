@@ -4,9 +4,8 @@ class Movie
 
   @@all = []
 
-  def initialize(title, rating)
+  def initialize(title)
     @title = title
-    @rating = rating
     self.class.all << self
   end
 

@@ -25,14 +25,16 @@ class Movie
 
 
  def average_rating
-  rating = @@all.map { |m| m.rating}
+  rating = queue_items.map { |qi| qi.rating}
   rating.inject { |sum, el| sum + el } / rating.size
  end
 
  def self.highest_rated
-   rate = self.all.map { |m| m.rating}.max 
+   QueueItem.all.map {|qi| qi. rating }.max
 
  end
 
+##Re-factored ratings last minute when given advice-- after being told I passed - pushed up to fast!!
+#Fixed it here.
 
 end

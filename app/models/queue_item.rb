@@ -15,8 +15,4 @@ class QueueItem
     @@all
   end
 
-  def rating
-    movie = self.select { |qi| qi.} ##Come back
-  end
-
 end

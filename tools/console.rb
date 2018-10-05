@@ -9,10 +9,10 @@ v1= Viewer.new("v1")
 v2= Viewer.new("v2")
 v3= Viewer.new("v3")
 
-m1= Movie.new("m1", 5)
-m2= Movie.new("m2", 5)
-m3= Movie.new("m3", 5)
-m4= Movie.new("m4", 5)
+m1= Movie.new("m1")
+m2= Movie.new("m2")
+m3= Movie.new("m3")
+m4= Movie.new("m4")
 
 
 q1 = QueueItem.new("q1", m1, v1, 5)
